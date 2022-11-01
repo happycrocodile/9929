@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+
+@import "../node_modules/boxicons/css/boxicons.min.css";
+
+@import "../node_modules/swiper/swiper.min.css";
+
+@import "../node_modules/react-toastify/dist/ReactToastify.min.css";
+
+$font-family-base: "Anton", sans-serif;
+$font-size-base: 1.2rem;
+
+$grid-gutter-width: 0rem;
+
+$spacer: 1.4rem;
+
+$primary: #3a210d;
+
+$border-radius: 0rem;
+$border-radius-lg: 0rem;
+
+$hr-color: white;
+$hr-opacity: 100%;
+$hr-border-width: 10px;
+$hr-margin-y: 0.5rem;
+
+$btn-link-color: white;
+$btn-link-hover-color: white;
+
+$offcanvas-border-width: 0rem;
+
+$navbar-dark-color: white;
+$navbar-dark-hover-color: white;
+$navbar-dark-toggler-border-color: transparent;
+
+@import "~bootstrap/scss/bootstrap.scss";
+
+a, button {
+    text-decoration: none !important;
+}
+
+hr {
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.react-parallax-bgimage {
+    filter: brightness(65%) !important;
+}
